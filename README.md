@@ -1,5 +1,5 @@
-#Projects in C 
-##Along with
-#Random C files
+# Projects in C 
+## Along with
+# Random C files
 
 
