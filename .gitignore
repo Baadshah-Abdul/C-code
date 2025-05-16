@@ -1,36 +1,10 @@
-# Compiled object files
+# Object files and executables
 *.o
-*.ko
-*.obj
-*.elf
-
-# Executables
-*.exe
 *.out
-*.app
-*.bin
+*.exe
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Library files
-*.a
-*.so
-*.dylib
-*.lib
-*.dll
-
-# Temp/IDE files
-*.swp
-*~
-.DS_Store
-.vscode/
-.idea/
-
-# Build directories
+# Build directory
 build/
-dist/
-bin/
+
+# Editor temp files
+*~
