@@ -47,7 +47,7 @@ int main()
 	printf("Right Gues: %d\n", dice);
 	
 	
-	/*calculate balance ofr win & loss*/
+	/*calculate balance for win & loss*/
 	if(dice == guess)
 	{
 		printf("Your guess was correct!! Bet multiplied by 3 and added\n");
@@ -69,7 +69,7 @@ int main()
 	if(balance < 0)
 		printf("You owe me $%d \U0001F480\n", abs(balance));
 
-	printf("SAALE HARAAM KA PAISA CHAHIYE TUJHE!!!!\n");
+	printf("HARAAM KA PAISA CHAHIYE TUJHE!!!!\n");
 	return 0;
 }
 
