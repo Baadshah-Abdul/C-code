@@ -3,17 +3,19 @@
 #include <time.h>
 #include <unistd.h>
 
+
+/*Random number generator b/w 1 & 6*/
 int random_num(int max)
 {
-	/*Random number generator b/w 1 & 6*/
 	int x;
 	x = rand() % max + 1;
 	return x;
 }
 
+
+/*calls random generator*/
 int dice_generator(int num)
 {
-	/*calls random generator*/
 	srand(time(NULL));
 	int dice = random_num(num);
 	return dice;
