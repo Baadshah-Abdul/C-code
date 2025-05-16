@@ -1,11 +1,36 @@
-# Compiled files
+# Compiled object files
 *.o
+*.ko
+*.obj
+*.elf
+
+# Executables
+*.exe
 *.out
+*.app
+*.bin
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Library files
 *.a
 *.so
-*.exe
-*.swp
-*.swo
+*.dylib
+*.lib
+*.dll
 
-# Executables (Linux)
-!*.*
+# Temp/IDE files
+*.swp
+*~
+.DS_Store
+.vscode/
+.idea/
+
+# Build directories
+build/
+dist/
+bin/
