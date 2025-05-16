@@ -1,0 +1,11 @@
+# Compiled files
+*.o
+*.out
+*.a
+*.so
+*.exe
+*.swp
+*.swo
+
+# Executables (Linux)
+!*.*
